@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.intro.to.java;
-
-/**
- *
- * @author m1ch93l
- */
 public class IntroToJava {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String word = "Michael B. Banaria";
+        int number = 100;
+        float decimal = 99.9f;
+        char single_character = 'M';
+        boolean true_or_false = true;
+        
+        System.out.println(word);
+        System.out.println(number);
+        System.out.println(decimal);
+        System.out.println(single_character);
+        System.out.println(true_or_false);
+        
     }
 }
