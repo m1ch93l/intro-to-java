@@ -12,6 +12,5 @@ public class IntroToJava {
         System.out.println(decimal);
         System.out.println(single_character);
         System.out.println(true_or_false);
-        
     }
 }
