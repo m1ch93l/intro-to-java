@@ -12,5 +12,11 @@ public class IntroToJava {
         System.out.println(decimal);
         System.out.println(single_character);
         System.out.println(true_or_false);
+        
+        String firstname = "Michael ";
+        String lastname = "Banaria";
+        String fullname = firstname + lastname;
+        
+        System.out.println(fullname);
     }
 }
