@@ -18,5 +18,8 @@ public class IntroToJava {
         String fullname = firstname + lastname;
         
         System.out.println(fullname);
+        
+        String purok = "Zone 1 ", barangay = "San Juan ", municipality = "Baao";
+        System.out.print(purok + barangay + municipality);
     }
 }
