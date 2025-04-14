@@ -1,16 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.intro.to.java;
-
-/**
- *
- * @author m1ch93l
- */
 public class IntroToJava {
-
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int addition = 5 + 5;
+        System.out.println(addition);
+        int addon = addition + 5;
+        System.out.println(addon);
+        int solve = addon + addon;
+        System.out.println(solve);
+        System.out.println(++solve);
+        System.out.println(--solve);
+        
+        int x = 5;
+        int y = 3;
+        System.out.println(x > y);
+        System.out.println(x > 3 && x < 10);
     }
 }
